@@ -14,8 +14,7 @@ stages:
   jobs:
   - job: Build
     displayName: Build
-    pool:
-      vmImage: ubuntu-latest
+    pool: local-agent
 
     steps:
     - task: Docker@2
