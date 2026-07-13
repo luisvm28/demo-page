@@ -43,7 +43,7 @@ stages:
         tags: ${{ parameters.tag }}
 
   - job: Deploy 
-    displayname: Deploy 
+    displayName: Deploy 
     dependsOn: Build
     pool: local-agent
     steps:
