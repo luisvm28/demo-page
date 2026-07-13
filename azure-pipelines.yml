@@ -55,6 +55,7 @@ stages:
 
           containerAppName: 'app-demo-page' # NOMBRE DEL CONTAINER APP
           resourceGroup: rg-devops
-          
+
           acrUsername: $(acrUsername)
           acrPassword: $(acrPassword)
+          
